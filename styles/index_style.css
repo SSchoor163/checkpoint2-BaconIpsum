@@ -41,11 +41,35 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 20%;
+        padding-bottom: 0;
         font-weight: normal;
+        animation-name: custom;
+        animation-duration: 3s;
     }
     span{
         font-size: 70px;
         font-weight: bold;
+        animation-iteration-count: 1;
+        
+    }
+    @keyframes custom{
+        0%{
+            border: 0;
+        }
+        25%{
+            border-bottom: 3px #f1f2ef dashed;
+            
+        }
+        50%{
+            border-bottom: 6px #f1f2ef solid;
+        }
+        75%{
+            border-bottom: 3px #f1f2ef dashed;
+        }
+        100%{
+            border: 0;
+        }
+
     }
     #bottom{
         background-color: #f7f5f6;
@@ -70,12 +94,21 @@
         font-weight: bolder;
     }
     .article:nth-child(1){
+        
+        animation-delay: .5s;
+        animation-duration: 4s;
         border-top:  30px #33a8dd solid;
      }
      .article:nth-child(2){
+        animation-duration: 4s;
+        animation-delay: 1s;
+       
         border-top:  30px #f46731 solid;
      }
      .article:nth-child(3){
+        animation-duration: 4s;
+        animation-delay: 1.5s;
+        animation-iteration-count: 1;
         border-top:  30px #2bcdc0 solid;
      }
 }
@@ -95,7 +128,8 @@
      nav>a:nth-child(3){
         font-size: 40px;
         padding: 5px;
-        border: 3px black solid;
+        color: #f1f2ef;
+        border: 3px #f1f2ef solid;
         border-radius: 20px;
     }
     #top{
@@ -108,7 +142,7 @@
         color: #f1f2ef;
         font-size: 120px;
         width: 990px;
-        height: 200px;
+        height: 150px;
         padding-top: 200px;
         margin-left: auto;
         margin-right: auto;
@@ -126,7 +160,7 @@
         display: flex;
     }
     .article{
-        color: white;
+        color: #f1f2ef;
         height: 500px;
         width: 300px;
         margin-left: auto;
@@ -153,6 +187,12 @@
         font-size: 30px;
         font-weight: normal;
     }
+   .article>a:visited{
+       color: #f1f2ef
+   } 
+   .article>a:hover{
+       color: blue;
+   }
 }
   
   
