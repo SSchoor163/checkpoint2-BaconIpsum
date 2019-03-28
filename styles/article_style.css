@@ -1,0 +1,31 @@
+@media(min-width: 576px){
+   #bottom{
+       height: 100vh;
+       color: #f1f2ef;
+   }
+   h1{
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       width: 350px;
+       height: 90px;
+       border-bottom: 5px #f1f2ef solid;
+   }
+   p{
+    padding-left: 25px;
+    padding-right: 25px;
+   }
+   
+  
+}
+@media(min-width: 992px){
+    h1{
+        width: 400px;
+       height: 150px;
+       border-bottom: 15px #f1f2ef solid;
+    }
+    p{
+        padding-left: 100px;
+        padding-right: 100px;
+    } 
+}
