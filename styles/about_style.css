@@ -1,0 +1,24 @@
+@media(min-width: 576px){
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 560px; 
+        height: 315px;
+        margin-top: 40px;
+    }
+    h1{
+        width: 360px;
+    }
+}
+@media(min-width: 992px){
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 760px; 
+        height: 500px;
+        margin-top: 40px;
+    }
+    h1{
+        width: 990px;
+    }
+}
